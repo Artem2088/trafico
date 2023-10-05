@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    border-radius: 10px;
+    background: var(--COLOR_WHITE);
+    box-shadow: 0px 20px 40px 0px var(--COLOR_SHADOW);
+    padding: 52px 0;
+    align-items: center;
+    position: relative;
+    top: -94px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: var(--COLOR_TEXT);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.inputName {
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid var(--COLOR_INPUT_BORDER);
+    background: var(--COLOR_WHITE);
+    padding: 11px 0 11px 40px;
+}
+
+.inputName::placeholder {
+    color: var(--text, #402B2B);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.inputName:focus {
+    border: 2px solid #EE4D47;
+    box-shadow: 0px 20px 40px 0px rgba(238, 77, 71, 0.20);
+    color: var(--text, #402B2B);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 0 0 0 40px;
+}
+
+.inputEmail {
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid var(--COLOR_INPUT_BORDER);
+    background: var(--COLOR_WHITE);
+    padding: 11px 0 11px 40px;
+    margin-bottom: 30px;
+}
+
+.inputEmail::placeholder {
+    color: var(--text, #402B2B);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.inputEmail:focus {
+    border: 2px solid #EE4D47;
+    box-shadow: 0px 20px 40px 0px rgba(238, 77, 71, 0.20);
+    color: var(--text, #402B2B);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 0 0 0 40px;
+}

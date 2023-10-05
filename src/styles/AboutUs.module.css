@@ -1,0 +1,44 @@
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 754px;
+    position: relative;
+}
+
+.title {
+    color: #EE4D47;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+}
+
+.description {
+    color: var(--COLOR_TEXT);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 470px;
+    padding: 40px 0 70px 0;
+}
+
+.boxSpan {
+    padding: 30px 55px;
+    width: 570px;
+    background-color: var(--COLOR_PINK);
+    border-left: 10px solid var(--COLOR_ORANGE);
+}
+
+.about {
+    color: var(--COLOR_TEXT);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.image {
+    width: 575px;
+    position: absolute;
+    top: -19%;
+    right: 0;
+}

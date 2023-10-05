@@ -1,0 +1,83 @@
+.footer {
+    margin-top: 330px;
+    position: relative;
+}
+
+.bg {
+    width: 1440px;
+    height: 660px;
+    position: absolute;
+    top: 0;
+    left: -23%;
+    background: url('../images/images/Mask Group.png') no-repeat;
+    background-color: var(--COLOR_FOOTER);
+    border-radius: 0 76px 0 0;
+    z-index: -1;
+}
+
+.upperBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imageCar {
+    position: absolute;
+    top: -22%;
+    left: -23%;
+}
+
+.spanBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: 10px solid var(--COLOR_ORANGE);
+    padding-left: 40px;
+    height: 160px;
+}
+
+.spanManagment {
+    color: var(--COLOR_WHITE);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 330px;
+}
+
+.subFooterBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+
+.containerLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.containerSocial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 187px;
+}
+
+.copyright {
+    color: var(--COLOR_TEXT);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 31px;
+}

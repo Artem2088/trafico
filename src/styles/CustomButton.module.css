@@ -1,0 +1,23 @@
+.mainButton {
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+    background: var(--COLOR_ORANGE);
+    gap: 24px;
+}
+
+.mainButtonSpan {
+    color: var(--COLOR_WHITE);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+
+}
+
+.arrowMain {
+    width: 29.5px;
+    height: 12.355px;
+    padding-left: 24px;
+}

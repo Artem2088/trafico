@@ -1,0 +1,77 @@
+.faq {
+    position: relative;
+    margin-top: 433px;
+
+}
+
+.title {
+    color: var(--COLOR_ORANGE);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+}
+
+.description {
+    color: var(--COLOR_TEXT);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 140%;
+    width: 550px;
+    padding: 44px 0 169px 0;
+}
+
+.background {
+    position: absolute;
+    top: -35%;
+    left: 19%;
+    z-index: -1;
+}
+
+.questions {
+    position: absolute;
+    top: -26%;
+    left: 42%;
+}
+
+.questionslists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.buttonMore {
+    max-width: 550px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(237, 77, 71, 0.2);
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 164px;
+    align-self: flex-end;
+    margin-top: 22px;
+    align-items: center;
+}
+
+.titleBtn {
+    color: var(--COLOR_ORANGE);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+}
+
+.plus {
+    width: 20px;
+    height: 20px;
+    padding-right: 35px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}

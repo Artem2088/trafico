@@ -1,0 +1,15 @@
+.container {
+    max-width: 1600px;
+    min-width: 1280px;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 10px 94px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}

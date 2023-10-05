@@ -1,0 +1,23 @@
+@import '../src/utils/normalize.css';
+@import '../src/utils/fonts/rubik.css';
+
+
+body {
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    background-color: var(--COLOR_MAIN);
+
+
+
+    --COLOR_MAIN: rgb(254, 248, 245);
+    --COLOR_WHITE: rgb(255, 255, 255);
+    --COLOR_ORANGE: rgb(238, 77, 71);
+    --COLOR_SHADOW: rgba(238, 77, 71, 0.10);
+    --COLOR_TEXT: rgb(64, 43, 43);
+    --COLOR_PINK: rgba(252, 221, 212, 0.4);
+    --COLOR_INPUT_SHADOW: rgba(238, 77, 71, 0.20);
+    --COLOR_INPUT_BORDER: rgba(238, 77, 71, 0.50);
+    --COLOR_FOOTER: rgba(15, 38, 76, 1);
+    --COLOR_GRADIENT: rgb(235, 42, 36);
+    --COLOR_BLACK: rgba(255, 237, 186, 0.00)
+}
